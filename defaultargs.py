@@ -11,4 +11,4 @@ def ask_ok(prompt, retries=4, complaint='Yes or no, please!'):
         print (complaint)
 ask_ok('Prompt 1: Do you really want to quit?')
 ask_ok('Prompt 2: OK to overwrite the file?', 1)
-ask_ok('Prompt 3: OK to overwrite the file?', 2, 'Come on, only yes or no!')
+ask_ok('Prompt 3: OK to overwrite the file?', 2, 'Come on, only yes or no!(TEST)')
